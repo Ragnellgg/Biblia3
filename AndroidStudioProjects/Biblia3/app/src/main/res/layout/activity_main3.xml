@@ -7,56 +7,58 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.ragnell.biblia3.Main2Activity">
+    tools:context="com.example.ragnell.biblia3.Main3Activity">
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:text="Antiguo Testamento"
+        android:text="Nuevo Testamento"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:textStyle="bold" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/button8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/textView"
+        android:layout_below="@+id/textView2"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="51dp"
-        android:text="Pentateuco" />
+        android:layout_marginTop="47dp"
+        android:text="Evangelios" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/button9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/button3"
+        android:layout_below="@+id/button8"
         android:layout_centerHorizontal="true"
-        android:text="Libros Historicos" />
+        android:text="Historia" />
 
     <Button
-        android:id="@+id/button5"
+        android:id="@+id/button10"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/button4"
+        android:layout_below="@+id/button9"
         android:layout_centerHorizontal="true"
-        android:text="Libros Poeticos" />
+        android:text="Cartas de Pablo" />
 
     <Button
-        android:id="@+id/button6"
+        android:id="@+id/button11"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/button5"
+        android:layout_below="@+id/button10"
         android:layout_centerHorizontal="true"
-        android:text="Libros Profeticos Mayores" />
+        android:text="Otras Cartas" />
 
     <Button
-        android:id="@+id/button7"
+        android:id="@+id/button12"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/button6"
-        android:layout_centerHorizontal="true"
-        android:text="Libros Profeticos Menores" />
+        android:layout_alignLeft="@+id/button9"
+        android:layout_alignStart="@+id/button9"
+        android:layout_below="@+id/button11"
+        android:text="Profecia" />
+
 </RelativeLayout>
